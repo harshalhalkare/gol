@@ -1,0 +1,10 @@
+pipeline {
+        stages {
+                stage('build') {
+                stage
+                steps {
+                        bat 'mvn clean install'
+                        }
+                                }
+                }
+        }
